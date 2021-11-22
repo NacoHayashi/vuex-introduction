@@ -1,24 +1,7 @@
-# vuex
+# vuex 小解說
 
-## Project setup
-```
-yarn install
-```
+## 關於安裝
+請參見[官網](https://vuex.vuejs.org/zh/installation.html#%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BD-cdn-%E5%BC%95%E7%94%A8)
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Vuex 核心
+![GITHUB]( 圖片網址 "圖片名稱")
