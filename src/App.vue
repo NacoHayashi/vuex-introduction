@@ -1,26 +1,26 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Global/>
+  <hr/>
+  <FeatureA />
+    <hr/>
+  <FeatureB />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FeatureA from './components/FeatureA.vue'
+import FeatureB from './components/FeatureB.vue'
+import Global from './components/Global.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    Global,
+    FeatureA,
+    FeatureB
+  },
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
